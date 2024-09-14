@@ -1,0 +1,19 @@
+name: cursoSpigot
+version: '${version}'
+main: me.jair.cursospigot.CursoSpigot
+api-version: '1.20'
+author: Jair
+
+commands:
+  ejemplo:
+    description: Comando para saludar
+    aliases:
+      -hola
+    usage: "Usage: /ejemplo [nombre]"
+    permission: "cursoSpigot.commands.ejemplo"
+  items:
+    description: Comando para una espada de diamante
+    aliases:
+      -sword
+    usage: "Usage: /espada"
+    permission: "cursoSpigot.commands.espada"
